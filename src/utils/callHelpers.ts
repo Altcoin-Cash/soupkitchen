@@ -137,7 +137,7 @@ const WBNB_TOKEN = new Token(chainId, tokens.wbnb.address[chainId], 18)
 const CAKE_BNB_TOKEN = new Token(chainId, getAddress(cakeBnbFarm.lpAddresses), 18)
 
 /**
- * Returns the total CAKE staked in the CAKE-BNB LP
+ * Returns the total HOBO staked in the HOBO-BNB LP
  */
 export const getUserStakeInCakeBnbLp = async (account: string, block?: number) => {
   try {
@@ -160,7 +160,7 @@ export const getUserStakeInCakeBnbLp = async (account: string, block?: number) =
 
     return new BigNumber(cakeLPBalance.toSignificant(18))
   } catch (error) {
-    console.error(`CAKE-BNB LP error: ${error}`)
+    console.error(`HOBO-BNB LP error: ${error}`)
     return BIG_ZERO
   }
 }
@@ -175,7 +175,7 @@ export const getUserStakeInCakePool = async (account: string, block?: number) =>
 
     return getBalanceAmount(new BigNumber(response.amount))
   } catch (error) {
-    console.error('Error getting stake in CAKE pool', error)
+    console.error('Error getting stake in HOBO pool', error)
     return BIG_ZERO
   }
 }

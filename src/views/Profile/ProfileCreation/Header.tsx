@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   padding-bottom: 24px;
 `
 
-const steps = ['Get Starter Collectible', 'Set Profile Picture', 'Join Team', 'Set Name']
+const steps = ['Get Starter Collectible', 'Set Profile Picture', 'Join Kitchen', 'Set Name']
 
 const Header: React.FC = () => {
   const { t } = useTranslation()
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
         {t('Show off your stats and collectibles with your unique profile')}
       </Heading>
       <Text color="textSubtle" mb="24px">
-        {t('Total cost: 1.5 CAKE')}
+        {t('Total cost: 1.5 HOBO')}
       </Text>
       <Breadcrumbs>
         {steps.map((translationKey, index) => {

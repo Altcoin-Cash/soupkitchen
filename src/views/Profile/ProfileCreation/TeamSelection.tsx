@@ -32,7 +32,7 @@ const Team: React.FC = () => {
           </Heading>
           <Text as="p" color="textSubtle" mb="24px">
             {t(
-              'There’s currently no big difference between teams, and no benefit of joining one team over another for now. So pick whichever one you like!',
+              'There’s currently no big difference between kitchens, and no benefit of joining one kitchen over another for now. So pick whichever one you like!',
             )}
           </Text>
           {teamValues &&

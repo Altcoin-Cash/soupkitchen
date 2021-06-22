@@ -34,7 +34,7 @@ const LotteryCard = () => {
     <StyledLotteryCard>
       <CardBody>
         <StyledHeadingText bold mb="24px">
-          PancakeSwap {t('Lottery')} V2
+          Soup Kitchen {t('Lottery')} 
         </StyledHeadingText>
         <StyledText bold mb="24px" color="#7645d9">
           {t('Coming Soon...')}
