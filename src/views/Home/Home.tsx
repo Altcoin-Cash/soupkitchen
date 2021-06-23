@@ -8,7 +8,7 @@ import CakeStats from 'views/Home/components/CakeStats'
 import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 import EarnAPRCard from 'views/Home/components/EarnAPRCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
-import CardBusdValue from './components/CardBusdValue'
+import PredictionPromotionCard from './components/PredictionPromotionCard'
 import WinCard from './components/WinCard'
 
 const Hero = styled.div`
@@ -98,7 +98,7 @@ const Home: React.FC = () => {
       <div>
         <Cards>
           <FarmStakingCard />
-          <CardBusdValue />
+          <PredictionPromotionCard />
         </Cards>
         <CTACards>
           <EarnAPRCard />
