@@ -48,37 +48,6 @@ const farms: FarmConfig[] = [
     token: tokens.hthb,
     quoteToken: tokens.busd,
   },
-  
-  {
-    pid: 8,
-    lpSymbol: 'BAKE-BNB Bakery LP',
-    lpAddresses: {
-      97: '0xE66790075ad839978fEBa15D4d8bB2b415556a1D',
-      56: '0xc2eed0f5a0dc28cfa895084bc0a9b8b8279ae492',
-    },
-    token: tokens.bake,
-    quoteToken: tokens.wbnb,
-  },
-  {
-    pid: 9,
-    lpSymbol: 'BURGER-BNB LP',
-    lpAddresses: {
-      97: '0xE66790075ad839978fEBa15D4d8bB2b415556a1D',
-      56: '0xd937FB9E6e47F3805981453BFB277a49FFfE04D7',
-    },
-    token: tokens.burger,
-    quoteToken: tokens.wbnb,
-  },
-  {
-    pid: 10,
-    lpSymbol: 'BAKE-BNB LP',
-    lpAddresses: {
-      97: '0xE66790075ad839978fEBa15D4d8bB2b415556a1D',
-      56: '0x3Da30727ed0626b78C212e81B37B97A8eF8A25bB',
-    },
-    token: tokens.bake,
-    quoteToken: tokens.wbnb,
-  },
 ]
 
 export default farms
