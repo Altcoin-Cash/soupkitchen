@@ -97,7 +97,7 @@ const PrizesGrid = () => {
             <tr>
               <th>{t('Rank in team')}</th>
               <th>{t('Tier')}</th>
-              <th>{t('HOBO Prizes (Split)')}</th>
+              <th>{t('SOUP Prizes (Split)')}</th>
               <th>{t('Achievements')}</th>
               <th>{t('NFT')}</th>
             </tr>

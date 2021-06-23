@@ -52,7 +52,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
   const cost = profile.isActive ? numberCakeToUpdate : numberCakeToReactivate
 
   /**
-   * Check if the wallet has the required HOBO allowance to change their profile pic or reactivate
+   * Check if the wallet has the required SOUP allowance to change their profile pic or reactivate
    * If they don't, we send them to the approval screen first
    */
   useEffect(() => {
@@ -79,7 +79,7 @@ const StartPage: React.FC<StartPageProps> = ({ goToApprove, goToChange, goToRemo
       <Flex alignItems="center" style={{ height: '48px' }} justifyContent="center">
         <Text as="p" color="failure">
           {!hasMinimumCakeRequired &&
-            t('%minimum% HOBO required to change profile pic', { minimum: getFullDisplayBalance(minimumCakeRequired) })}
+            t('%minimum% SOUP required to change profile pic', { minimum: getFullDisplayBalance(minimumCakeRequired) })}
         </Text>
       </Flex>
       {profile.isActive ? (

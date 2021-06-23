@@ -4,7 +4,7 @@ import { PageMeta } from './types'
 export const DEFAULT_META: PageMeta = {
   title: 'SoupKitchen',
   description:
-    'SoupKitchen, the smoking hot DEX and DeFi yield farm for Homeless Tokens! Earn HOBO through yield farming or win it in the Lottery, then stake it in Soup Bowls to earn more tokens! Initial Farm Offerings (new token launchs), NFTs, and more, on a platform you can trust.',
+    'SoupKitchen, the smoking hot DEX and DeFi yield farm for Homeless Tokens! Earn SOUP through yield farming or win it in the Lottery, then stake it in Soup Bowls to earn more tokens! Initial Farm Offerings (new token launchs), NFTs, and more, on a platform you can trust.',
   image: 'https://soupkitchen.vercel.app/images/hero.png',
 }
 
