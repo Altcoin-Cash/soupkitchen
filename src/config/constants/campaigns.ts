@@ -13,8 +13,8 @@ const campaigns: Campaign[] = [
   {
     id: '512340000',
     type: 'ifo',
-    title: 'Kalmar',
-    badge: 'ifo-kalm.svg',
+    title: 'Homeless Binance Token',
+    badge: 'ifo-hthb.webp',
   },
 ]
 
