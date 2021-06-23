@@ -100,7 +100,7 @@ const tokens = {
     decimals: 8,
     projectLink: 'https://dogecoin.com/',
   },
-
+}
 }
 
 export default tokens
