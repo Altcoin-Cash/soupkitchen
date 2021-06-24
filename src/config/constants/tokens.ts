@@ -15,10 +15,10 @@ const tokens = {
   hthb: {
     symbol: 'HTHB',
     address: {
-      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
-      97: '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+      56: '0x62eab2c299c991391e707b79fe4a2f59bbdad805',
+      97: '0xda68202843e46568d7d33e14f977fe33ffc318b5',
     },
-    decimals: 18,
+    decimals: 9,
     projectLink: 'https://hth.world/',
   },
 
@@ -30,7 +30,8 @@ const tokens = {
     },
     decimals: 18,
     projectLink: 'https://soup.finance/',
-  },  hobo: {
+  },  
+  hobo: {
     symbol: 'HOBO',
     address: {
       56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
