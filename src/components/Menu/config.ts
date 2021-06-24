@@ -57,7 +57,6 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'IfoIcon',
     href: '/ifo',
   },
-
   {
     label: t('More'),
     icon: 'MoreIcon',
@@ -87,8 +86,8 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
         href: 'https://pancakeswap.creator-spring.com/',
       },
     ],
-	*/
   },
+  */
 ]
 
 export default config
