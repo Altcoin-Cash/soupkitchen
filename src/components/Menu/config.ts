@@ -57,11 +57,11 @@ const config: (t: ContextApi['t']) => MenuEntry[] = (t) => [
     icon: 'IfoIcon',
     href: '/ifo',
   },
-  */
+
   {
     label: t('More'),
     icon: 'MoreIcon',
-/**    items: [
+    items: [
       {
         label: t('Contact'),
         href: 'https://docs.pancakeswap.finance/contact-us',
