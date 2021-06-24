@@ -14,7 +14,7 @@ const Inner = styled(Container)`
 
 const PageHeader: React.FC<{ background?: string }> = ({ background, children, ...props }) => (
   <Outer background={background} {...props}>
-    <Inner>{children}</Inner>
+    <Inner>{children} <img src="/images/soupfarm.png" alt="Soup.farm"></img> </Inner>
   </Outer>
 )
 

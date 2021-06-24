@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 //import { ChevronDownIcon, ChevronUpIcon, Text } from '@pancakeswap/uikit'
 import { ChevronDownIcon, ChevronUpIcon } from '@pancakeswap/uikit'
-//import { Text } from 'contexts/Localization'
+import { Text } from 'contexts/Localization'
 import { useTranslation } from 'contexts/Localization'
 
 export interface ExpandableSectionButtonProps {
@@ -27,7 +27,8 @@ const ExpandableSectionButton: React.FC<ExpandableSectionButtonProps> = ({ onCli
   return (
     <Wrapper aria-label={t('Hide or show expandable content')} role="button" onClick={() => onClick()}>
       <Text color="primary" bold>
-        {expanded ? t('Hide') : t('Details')} <img src="/images/soupfarm.png" alt="Soup.farm"></img>
+//        {expanded ? t('Hide') : t('Details')} <img src="/images/soupfarm.png" alt="Soup.farm"></img>
+        {expanded ? ('Hide') : ('Details')}
       </Text>
       {expanded ? <ChevronUpIcon /> : <ChevronDownIcon />}
     </Wrapper>
