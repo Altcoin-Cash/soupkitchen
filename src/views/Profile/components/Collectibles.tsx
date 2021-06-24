@@ -37,7 +37,7 @@ const Collectibles = () => {
         {t('Soup Collectibles')}
       </Heading>
       <Text as="p">
-        {t('Soup Collectibles are special ERC-721 NFTs that can be used on the PancakeSwap platform.')}
+        {t('Soup Collectibles are special ERC-721 NFTs that can be used on the Soup Kitchen platform.')}
       </Text>
       <Text as="p">
         {t('NFTs in this user’s wallet that aren’t approved Soup Collectibles won’t be shown here.')}
