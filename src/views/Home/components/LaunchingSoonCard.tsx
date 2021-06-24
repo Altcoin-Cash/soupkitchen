@@ -57,7 +57,7 @@ const StyledSkeleton = styled(Skeleton)`
   }
 `
 
-const StyledText = styled(Text)`
+const StyledText2 = styled(Text)`
   font-size: 22px;
   line-height: 1.1;
   font-weight: 600;
@@ -110,9 +110,9 @@ const PredictionPromotionCard = () => {
         <StyledText bold color="#7645d9">
           Soup Kitchen
         </StyledText>
-        <StyledText bold mb="24px">
+        <StyledText2 bold mb="24px">
           Dex, Farm and Pools
-        </StyledText>
+        </StyledText2>
         <Text color="textSubtle" mb="24px">
           *{t('Alpha Version')}
         </Text>
