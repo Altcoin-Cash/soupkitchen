@@ -1,12 +1,12 @@
 {
   "short_name": "Soup",
   "name": "Soup",
-  "description": "Farm SOUP with Soup LP Tokens",
+  "description": "Farm SOUP with Soup Bowl LP Tokens",
   "icons": [
     {
       "src": "favicon.ico",
       "type": "image/x-icon",
-      "sizes": "256x256"
+      "sizes": "32x32"
     }
   ],
   "start_url": ".",
