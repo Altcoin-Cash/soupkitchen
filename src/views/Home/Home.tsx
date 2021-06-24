@@ -9,7 +9,6 @@ import TotalValueLockedCard from 'views/Home/components/TotalValueLockedCard'
 import EarnAPRCard from 'views/Home/components/EarnAPRCard'
 import EarnAssetCard from 'views/Home/components/EarnAssetCard'
 import LaunchingSoonCard from './components/LaunchingSoonCard'
-import WinCard from './components/WinCard'
 
 const Hero = styled.div`
   align-items: center;
@@ -103,7 +102,7 @@ const Home: React.FC = () => {
         <CTACards>
           <EarnAPRCard />
           <EarnAssetCard />
-          <WinCard />
+
         </CTACards>
         <Cards>
           <CakeStats />
