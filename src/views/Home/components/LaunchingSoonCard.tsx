@@ -120,7 +120,7 @@ const PredictionPromotionCard = () => {
           <Button px={['14px', null, null, null, '20px']}>
             <Flex alignItems="center">
               <Text color="white" bold fontSize="16px">
-                {t('Try Now')}
+                {t('soup.farm')}
               </Text>
               <ArrowForwardIcon color="white" />
             </Flex>
